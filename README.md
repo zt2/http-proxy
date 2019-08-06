@@ -1,4 +1,6 @@
 # HTTP::Proxy
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fzt2%2Fhttp-proxy.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fzt2%2Fhttp-proxy?ref=badge_shield)
+
 
 HTTP::Proxy allows you sending HTTP request via proxy automatically. This library extends gem HTTP by patching HTTP::Chainable to make proxy http request possible.
 
@@ -46,3 +48,6 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/hi_ztz
 ## License
 
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fzt2%2Fhttp-proxy.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fzt2%2Fhttp-proxy?ref=badge_large)
