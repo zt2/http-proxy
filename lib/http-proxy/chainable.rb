@@ -14,9 +14,6 @@ module HTTP
       end
 
       via(p['host'], p['port'])
-    rescue HTTP::ConnectionError
-      ProxyPool.remove(p)
-      retry
     end
   end
 end
