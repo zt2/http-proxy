@@ -22,10 +22,10 @@ Gem::Specification.new do |spec|
   end
   spec.require_paths = ['lib']
 
-  spec.add_development_dependency 'bundler', '~> 2.0'
-  spec.add_development_dependency 'rake', '~> 10.0'
+  spec.add_development_dependency 'bundler', '~> 2.1'
+  spec.add_development_dependency 'rake', '~> 13.0'
   spec.add_development_dependency 'minitest', '~> 5.0'
 
-  spec.add_runtime_dependency 'proxy_pool', '~> 0.1.0'
-  spec.add_runtime_dependency 'http', '~> 4.1', '>= 4.1.1'
+  spec.add_runtime_dependency 'proxy_pool', '~> 0.2.2'
+  spec.add_runtime_dependency 'http', '~> 4.4', '>= 4.4.1'
 end
