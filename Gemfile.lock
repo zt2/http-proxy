@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    http-proxy (0.2.1)
+    http-proxy (0.3.0)
       http (~> 4.4, >= 4.4.1)
       proxy_pool (~> 0.2.2)
 
