@@ -33,6 +33,12 @@ HTTP.proxy.get 'https://httpbin.org/ip'
 # => {"origin"=>"36.83.40.184, 36.83.40.184"}
 ```
 
+With any condition in block (see more in [ProxyPool](https://github.com/zt2/ProxyPool))
+
+```ruby
+HTTP.proxy { |proxy| proxy['country'] == 'US' && proxy['response_time'] < 2 }.get
+```
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake test` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
